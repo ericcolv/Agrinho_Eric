@@ -8,10 +8,10 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.top, .left, .center, .right, .youtube {
+.top, .left, .right, .center, .youtube {
     margin: 10px;
 }
 
@@ -26,9 +26,19 @@ body {
 
 .center {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .youtube {
     width: 100%;
     text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
 }
