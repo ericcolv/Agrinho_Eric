@@ -7,8 +7,9 @@ body {
     background-color: #f0f0f0;
 }
 
-.content {
+P (
     text-align: center;
+    background: #CCCCCC
 }
 
 .video-link {
